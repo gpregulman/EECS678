@@ -1,0 +1,94 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACTIVE_DURATION	dine.c	20;"	d	file:
+DEADLOCK	dine.c	19;"	d	file:
+FIELDS_TO_IGNORE	dine.c	17;"	d	file:
+MAX_BUF	dine.c	15;"	d	file:
+NUM_CHOPS	dine.c	16;"	d	file:
+NUM_PHILS	dine.c	14;"	d	file:
+STUDENT_ID	Makefile	/^STUDENT_ID=XXXXXXX$/;"	m
+blocked	procstat.c	/^num blocked;$/;"	v
+can_eat	dine.c	/^  pthread_cond_t can_eat; $/;"	m	struct:__anon1	file:
+check_for_deadlock	dine.c	/^int check_for_deadlock()$/;"	f
+chopstick	dine.c	/^static pthread_mutex_t chopstick[NUM_CHOPS];$/;"	v	file:
+cmaj_flt	procstat.c	/^num cmaj_flt;$/;"	v
+cmin_flt	procstat.c	/^num cmin_flt;$/;"	v
+cpu	procstat.c	/^num cpu;$/;"	v
+cstime	procstat.c	/^num cstime;$/;"	v
+cutime	procstat.c	/^num cutime;$/;"	v
+diners	dine.c	/^static philosopher diners[NUM_PHILS];$/;"	v	file:
+dp_thread	dine.c	/^static void *dp_thread(void *arg)$/;"	f	file:
+eat_one_mouthful	dine.c	/^void eat_one_mouthful()$/;"	f
+eip	procstat.c	/^num eip;$/;"	v
+end_code	procstat.c	/^num end_code;$/;"	v
+esp	procstat.c	/^num esp;$/;"	v
+exit_signal	procstat.c	/^num exit_signal;$/;"	v
+flags	procstat.c	/^num flags;$/;"	v
+gettid	dine.c	12;"	d	file:
+gettimesinceboot	procstat.c	/^int gettimesinceboot() {$/;"	f
+id	dine.c	/^  int id;$/;"	m	struct:__anon1	file:
+input	procstat.c	/^FILE *input;$/;"	v
+it_real_value	procstat.c	/^num it_real_value;$/;"	v
+left_chop	dine.c	/^pthread_mutex_t *left_chop (philosopher *p)$/;"	f
+left_phil	dine.c	/^philosopher *left_phil (philosopher *p)$/;"	f
+main	dine.c	/^int main(int argc, char **argv)$/;"	f
+main	procstat.c	/^int main(int argc, char *argv[]) {$/;"	f
+maj_flt	procstat.c	/^num maj_flt;$/;"	v
+min_flt	procstat.c	/^num min_flt;$/;"	v
+nicev	procstat.c	/^num nicev;$/;"	v
+num	procstat.c	/^typedef long long int num;$/;"	t	file:
+num_threads	procstat.c	/^num num_threads;$/;"	v
+pending	procstat.c	/^num pending;$/;"	v
+pgid	procstat.c	/^num pgid;$/;"	v
+philosopher	dine.c	/^} philosopher;$/;"	t	typeref:struct:__anon1	file:
+pid	procstat.c	/^num pid;$/;"	v
+policy	procstat.c	/^num policy;$/;"	v
+ppid	procstat.c	/^num ppid;$/;"	v
+print_progress	dine.c	/^void print_progress()$/;"	f
+printchar	procstat.c	/^void printchar(char *name, char x) {  printf("%20s: %c\\n", name, x);}$/;"	f
+printone	procstat.c	/^void printone(char *name, num x) {  printf("%20s: %lld\\n", name, x);}$/;"	f
+printonex	procstat.c	/^void printonex(char *name, num x) {  printf("%20s: %016llx\\n", name, x);}$/;"	f
+printstr	procstat.c	/^void printstr(char *name, char *x) {  printf("%20s: %s\\n", name, x);}$/;"	f
+printtime	procstat.c	/^void printtime(char *name, num x) {  printf("%20s: %f\\n", name, (((double)x) \/ tickspersec));}$/;"	f
+printtimediff	procstat.c	/^void printtimediff(char *name, num x) {$/;"	f
+printunsigned	procstat.c	/^void printunsigned(char *name, unsigned long long x) {  printf("%20s: %llu\\n", name, x);}$/;"	f
+priority	procstat.c	/^num priority;$/;"	v
+readchar	procstat.c	/^void readchar(char *x) {  fscanf(input, "%c ", x);}$/;"	f
+readone	procstat.c	/^void readone(num *x) { fscanf(input, "%lld ", x); }$/;"	f
+readstr	procstat.c	/^void readstr(char *x) {  fscanf(input, "%s ", x);}$/;"	f
+readunsigned	procstat.c	/^void readunsigned(unsigned long long *x) { fscanf(input, "%llu ", x); }$/;"	f
+right_chop	dine.c	/^pthread_mutex_t *right_chop (philosopher *p)$/;"	f
+right_phil	dine.c	/^philosopher *right_phil (philosopher *p)$/;"	f
+rss	procstat.c	/^num rss;$/;"	v
+rsslim	procstat.c	/^num rsslim;$/;"	v
+rt_priority	procstat.c	/^num rt_priority;$/;"	v
+set_table	dine.c	/^void set_table()$/;"	f
+sid	procstat.c	/^num sid;$/;"	v
+sigcatch	procstat.c	/^num sigcatch;$/;"	v
+sigign	procstat.c	/^num sigign;$/;"	v
+start_code	procstat.c	/^num start_code;$/;"	v
+start_stack	procstat.c	/^num start_stack;$/;"	v
+start_time	procstat.c	/^unsigned long long start_time;$/;"	v
+state	procstat.c	/^char state;$/;"	v
+stimev	procstat.c	/^num stimev;$/;"	v
+stop	dine.c	/^static int stop=0;$/;"	v	file:
+sys_progress	dine.c	/^static unsigned long sys_progress[NUM_PHILS];$/;"	v	file:
+sys_time	dine.c	/^static unsigned long sys_time[NUM_PHILS];$/;"	v	file:
+tcomm	procstat.c	/^char tcomm[PATH_MAX];$/;"	v
+think_one_thought	dine.c	/^void think_one_thought()$/;"	f
+thread	dine.c	/^  pthread_t thread;$/;"	m	struct:__anon1	file:
+tickspersec	procstat.c	/^long tickspersec;$/;"	v
+tid	dine.c	/^  int tid;$/;"	m	struct:__anon1	file:
+tty_nr	procstat.c	/^num tty_nr;$/;"	v
+tty_pgrp	procstat.c	/^num tty_pgrp;$/;"	v
+user_progress	dine.c	/^static unsigned long user_progress[NUM_PHILS];$/;"	v	file:
+user_time	dine.c	/^static unsigned long user_time[NUM_PHILS];$/;"	v	file:
+utime	procstat.c	/^num utime;$/;"	v
+vsize	procstat.c	/^num vsize;$/;"	v
+wchan	procstat.c	/^num wchan;$/;"	v
+zero1	procstat.c	/^num zero1;$/;"	v
+zero2	procstat.c	/^num zero2;$/;"	v

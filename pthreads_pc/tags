@@ -1,0 +1,36 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CONSUMER_BLOCK	producer_consumer.c	24;"	d	file:
+CONSUMER_CPU	producer_consumer.c	23;"	d	file:
+PRODUCER_BLOCK	producer_consumer.c	22;"	d	file:
+PRODUCER_CPU	producer_consumer.c	21;"	d	file:
+QUEUESIZE	producer_consumer.c	11;"	d	file:
+STUDENT_ID	Makefile	/^STUDENT_ID=2522979$/;"	m
+WORK_MAX	producer_consumer.c	12;"	d	file:
+buf	producer_consumer.c	/^  int buf[QUEUESIZE];   \/* Array for Queue contents, managed as circular queue *\/$/;"	m	struct:__anon1	file:
+consumer	producer_consumer.c	/^void *consumer (void *carg)$/;"	f
+count	producer_consumer.c	/^  int   *count;   $/;"	m	struct:__anon2	file:
+do_work	producer_consumer.c	/^void do_work(int cpu_iterations, int blocking_time)$/;"	f
+empty	producer_consumer.c	/^  int empty;            \/* Flag set when queue is empty *\/$/;"	m	struct:__anon1	file:
+full	producer_consumer.c	/^  int full;             \/* Flag set when queue is full  *\/$/;"	m	struct:__anon1	file:
+head	producer_consumer.c	/^  int head;             \/* Index of the queue head *\/$/;"	m	struct:__anon1	file:
+main	producer_consumer.c	/^int main (int argc, char *argv[])$/;"	f
+memory_access_area	producer_consumer.c	/^int memory_access_area[100000];$/;"	v
+msleep	producer_consumer.c	/^void msleep(unsigned int milli_seconds)$/;"	f
+mutex	producer_consumer.c	/^  pthread_mutex_t *mutex;     \/* Mutex protecting this Queue's data *\/$/;"	m	struct:__anon1	file:
+notEmpty	producer_consumer.c	/^  pthread_cond_t  *notEmpty;  \/* Used by consumers to await something to consume*\/$/;"	m	struct:__anon1	file:
+notFull	producer_consumer.c	/^  pthread_cond_t  *notFull;   \/* Used by producers to await room to produce*\/$/;"	m	struct:__anon1	file:
+pcdata	producer_consumer.c	/^} pcdata;$/;"	t	typeref:struct:__anon2	file:
+producer	producer_consumer.c	/^void *producer (void *parg)$/;"	f
+q	producer_consumer.c	/^  queue *q;       $/;"	m	struct:__anon2	file:
+queue	producer_consumer.c	/^} queue;$/;"	t	typeref:struct:__anon1	file:
+queueAdd	producer_consumer.c	/^void queueAdd (queue *q, int in)$/;"	f
+queueDelete	producer_consumer.c	/^void queueDelete (queue *q)$/;"	f
+queueInit	producer_consumer.c	/^queue *queueInit (void)$/;"	f
+queueRemove	producer_consumer.c	/^void queueRemove (queue *q, int *out)$/;"	f
+tail	producer_consumer.c	/^  int tail;             \/* Index of the queue tail, the next empty slot *\/  $/;"	m	struct:__anon1	file:
+tid	producer_consumer.c	/^  int    tid;$/;"	m	struct:__anon2	file:
